@@ -1,27 +1,29 @@
-# React + TypeScript + Vite
+<h1 align="center" id="title">Techrange Assignment</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://socialify.git.ci/M-A-N-I-K/techrange-assignment/image?font=Rokkitt&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<h2>🚀 Demo</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://techrange-assignment.netlify.app/](https://techrange-assignment.netlify.app/)
 
-## Expanding the ESLint configuration
+<h2>🛠️ Installation Steps:</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p>1. To install the project dependencies run the following command:</p>
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>2. To start the development server run the following command:</p>
+
+```
+npm run dev
+```
+
+<p>3. To build the production version of the website run the following command:</p>
+
+```
+npm run build
+```
+
+<p>4. The site will be avaiable at you local envirnment on http://localhost:5173/</p>
